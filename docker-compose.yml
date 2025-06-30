@@ -1,0 +1,7 @@
+services:
+  webssh:
+    image: smhw3565/webssh:latest
+    container_name: webssh
+    restart: unless-stopped
+    ports:
+      - "8888:8888"
