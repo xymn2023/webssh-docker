@@ -1,6 +1,6 @@
 # WebSSH 部署指南
 
-这是一个基于 [huashengdun/webssh](https://github.com/huashengdun/webssh) 项目的快速部署指南，主要介绍如何使用 Docker 进行部署。
+这是一个基于webssh 项目的快速部署指南，主要介绍如何使用 Docker 进行部署。
 
 ## 简介
 
@@ -58,10 +58,5 @@ docker compose up -d
 docker compose down
 ```
 
-## 关于镜像构建
 
-本项目包含一个 `Dockerfile`，用于构建应用程序的 Docker 镜像。如果您需要自定义功能或更新版本，可以修改 `Dockerfile` 并重新构建自己的镜像。`docker-compose.yml` 文件和 `Dockerfile` 文件共同构成了一个完整的、可复现的部署方案，建议将它们都保留在代码仓库中。
 
----
-
-原始项目仓库地址：[https://github.com/huashengdun/webssh](https://github.com/huashengdun/webssh)
